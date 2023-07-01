@@ -15,6 +15,7 @@ int main()
                 scanf("\n%d",&deposit);
                 accountBalance += deposit;
                 mini[i] = deposit;
+                count = i;
                 i++;
                 break;
             case 2:
